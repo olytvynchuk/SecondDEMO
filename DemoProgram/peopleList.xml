@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<ArrayOfPerson xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Person>
+    <FirstName>Allison</FirstName>
+    <LastName>Ware</LastName>
+    <BirthDate>1995-01-23T00:06:00</BirthDate>
+    <TaxNumber>2882341673</TaxNumber>
+  </Person>
+  <Person>
+    <FirstName>Andrew</FirstName>
+    <LastName>Denysov</LastName>
+    <BirthDate>2004-01-07T00:07:00</BirthDate>
+    <TaxNumber>2793458756</TaxNumber>
+  </Person>
+  <Person>
+    <FirstName>Alex</FirstName>
+    <LastName>Miracle</LastName>
+    <BirthDate>1998-01-09T00:01:00</BirthDate>
+    <TaxNumber>2192765308</TaxNumber>
+  </Person>
+  <Person xsi:type="Student">
+    <FirstName>Maksym</FirstName>
+    <LastName>Kot</LastName>
+    <BirthDate>2000-01-22T00:11:00</BirthDate>
+    <TaxNumber>219223465</TaxNumber>
+    <YearOfEntry>2020</YearOfEntry>
+  </Person>
+  <Person xsi:type="Student">
+    <FirstName>Oleh</FirstName>
+    <LastName>Mavdryk</LastName>
+    <BirthDate>2003-01-16T00:08:00</BirthDate>
+    <TaxNumber>218242567</TaxNumber>
+    <YearOfEntry>2020</YearOfEntry>
+  </Person>
+  <Person xsi:type="Student">
+    <FirstName>Natalia</FirstName>
+    <LastName>Petriv</LastName>
+    <BirthDate>1999-01-10T00:11:00</BirthDate>
+    <TaxNumber>2347651234</TaxNumber>
+    <YearOfEntry>2017</YearOfEntry>
+  </Person>
+  <Person xsi:type="Student">
+    <FirstName>Oleh</FirstName>
+    <LastName>Alishev</LastName>
+    <BirthDate>2000-01-01T00:03:00</BirthDate>
+    <TaxNumber>2107667231</TaxNumber>
+    <YearOfEntry>2017</YearOfEntry>
+  </Person>
+</ArrayOfPerson>
